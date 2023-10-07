@@ -92,7 +92,7 @@ li a:hover{
 }
 
 .imgback{
-    background: url(/assets/img/Backimg.png);
+    background: url(assets/img/Backimg.png);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -513,7 +513,7 @@ form{
     border-radius: 20px;
     text-align: center;
     width: 800px;
-    background-image: url(/assets/img/form-bg.jpg);
+    background-image: url(assets/img/form-bg.jpg);
     background-size: contain;
 }
 

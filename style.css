@@ -169,14 +169,14 @@ li a:hover{
 .titulo{
     font-size: 30px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: bolder;
 
 }
 .container{
     width: 100%;
     margin: 0 auto;
-    padding: 15px 15px;
+    padding: 5px 5px;
     max-width: 1200px;
 }
 

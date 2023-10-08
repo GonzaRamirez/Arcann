@@ -515,6 +515,8 @@ form{
     width: 800px;
     background-image: url(assets/img/form-bg.jpg);
     background-size: contain;
+    margin: 5px;
+
 }
 
 .input-group{
@@ -533,7 +535,7 @@ form h2{
 label{
     color: black;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: bolder;
     margin-bottom: 10px;
 }
 
@@ -582,16 +584,26 @@ input::placeholder, textarea::placeholder{
 
 @media(max-width: 991px){
     main{
-        padding: 30px;
+        padding: 10px;
     }
 
     form{
-        padding: 50px 30px;
+        padding: 10px 10px;
         width: 100%;
     }
 
     input{
         padding: 15px;
+    }
+    .form-txt{
+        margin-bottom: 10px;
+    }
+    label{
+        font-size: 16px;
+    }
+    input, textarea{
+        font-size: 14px;
+        margin-bottom: 5px;
     }
 }
 

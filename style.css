@@ -407,7 +407,7 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
         height: 20px;
     }
     .portfolio{
-        height: 100vh;
+        height: calc(100vh + 120px);
     }
 }
 .servicios{
@@ -483,8 +483,8 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     }
     .servicios{
         padding: 0;
-        height: 100vh;
-        margin-top: 40px;
+        height: calc(100vh + 120px);
+        margin-top: 140px;
     }
     .card p{
         line-height: normal;
@@ -537,6 +537,11 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     .blog{
         margin-top: 120px;
         width: 80%;
+    }
+
+    .blog-container{
+        margin-bottom: 40px;
+        height: calc(100vh + 120px);
     }
 }
 

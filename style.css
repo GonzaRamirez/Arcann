@@ -13,12 +13,15 @@
 
 h3{
     font-weight: 300;
-    line-height: 30px;
+    line-height: 28px;
     word-spacing: 8px;  
+    letter-spacing: 0.5px;
 }
 
 h2{
     font-family: 'Bebas Neue', sans-serif;
+    word-spacing: 8px;
+    letter-spacing: 2px;
   }
 
 .inicio{
@@ -108,7 +111,7 @@ li a:hover{
         padding-left: 20px;
     }
     nav ul li a{
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
@@ -195,12 +198,13 @@ li a:hover{
 
 @media (max-width: 952px){
     .container h2{
-        font-size: 20px;
+        font-size: 24px;
         margin-top: 20px;
+        word-spacing: 0.5px;
     }
     .container h3{
-        font-size: 16px;
-        word-spacing: normal;
+        font-size: 18px;
+        word-spacing: 0.5px;
         line-height: normal;
     }
     .nosotros{
@@ -412,18 +416,19 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
 
 @media (max-width: 952px){
     .titulo-portfolio{
-        font-size: 20px;
+        font-size: 24px;
         margin-bottom: 40px;
+        word-spacing: 0.5px;
     }
     .portfolio-container h3{
-        font-size: 16px;
-        word-spacing: normal;
+        font-size: 18px;
+        word-spacing: 0.5px;
         line-height: normal;
         margin-bottom: 50px;
     }
     .pagination-item{
-        width: 20px;
-        height: 20px;
+        width: 16px;
+        height: 16px;
     }
     .portfolio{
         height: calc(100vh + 120px);
@@ -449,8 +454,9 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
 .titulo-container-servicios h2{
     font-size: 34px;
     color: #05668D;
-    line-height: 28px;
+    line-height: 25px;
     padding: 20px;
+    letter-spacing: 2px;
 }
 
 .servicios-container {
@@ -479,6 +485,8 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     font-size: 16px;
     line-height: 25px;
     color: #05668D;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
 }
 
 .servicios-container h3{
@@ -490,14 +498,14 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     line-height: 28px;
     padding: 10px;
     color: #05668D;
+    letter-spacing: 0.5px;
 }
 
 @media(max-width: 952px){
     .titulo-container-servicios h2{
-        font-size: 20px;
+        font-size: 24px;
         line-height: normal;
-        padding: 0;
-        margin-top: 40px;
+        padding: 10px;
         margin-bottom: 20px;
     }
     .servicios-container h3{
@@ -506,12 +514,12 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     }
     .servicios{
         padding: 0;
-        height: calc(100vh + 120px);
-        margin-top: 140px;
+        height: 100%;
+        margin-top: 180px;
     }
     .card p{
         line-height: normal;
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -560,11 +568,11 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
 
 @media (max-width: 952px){
     .blog h2{
-        font-size: 20px;
+        font-size: 24px;
     }
     .blog h3{
-        font-size: 16px;
-        word-spacing: normal;
+        font-size: 18px;
+        word-spacing: 0.5px;
         line-height: normal;
     }
     .blog{
@@ -574,7 +582,7 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
 
     .blog-container{
         margin-bottom: 40px;
-        height: calc(100vh + 120px);
+        height: 100%;
     }
 }
 

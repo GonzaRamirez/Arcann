@@ -13,14 +13,13 @@
 
 h3{
     font-weight: 300;
-    line-height: 28px;
-    font-style: italic;
-    word-spacing: 6px;  
+    line-height: 30px;
+    word-spacing: 8px;  
 }
 
 h2{
     font-family: 'Bebas Neue', sans-serif;
-}
+  }
 
 .inicio{
     height: 100vh;
@@ -45,6 +44,9 @@ nav{
 .logo{
     height: 100px;
 }
+.logo:hover{
+    transform: scale(1.2);
+}
 
 nav ul{
     float: right;
@@ -62,6 +64,7 @@ nav ul li a{
     font-size: 18px;
     padding: 10px 10px;
     text-transform: uppercase;
+    font-weight: bolder;
 }
 
 li a.active, li a:hover{
@@ -143,12 +146,13 @@ li a:hover{
 }
 
 .nosotros{
-    height: calc(100vh + 120px);
+    
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 1200px;
+    padding: 20px;
+    padding-top: 150px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -157,17 +161,26 @@ li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
+    color: #05668D;
+}
+
+.nosotros-txt{
+    color: #05668D;
 }
 
 .valores-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;    
+}
 
+.valores-container h3{
+    color: #07678E;
 }
 
 .titulo{
-    font-size: 30px;
+    font-size: 34px;
     text-transform: uppercase;
     margin-bottom: 10px;
     font-weight: bolder;
@@ -175,9 +188,9 @@ li a:hover{
 }
 .container{
     width: 100%;
-    margin: 0 auto;
     padding: 5px 5px;
     max-width: 1200px;
+    padding: 20px;
 }
 
 @media (max-width: 952px){
@@ -208,10 +221,16 @@ li a:hover{
 }
 
 .titulo-portfolio{
-    font-size: 30px;
+    font-size: 34px;
     text-transform: uppercase;
     font-weight: bolder;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    color: #05668D;
+}
+
+.portfolio-container h3{
+    color: #05668D;
+    margin-bottom: 20px;
 }
 .container-all img{
     width: 100%;
@@ -265,8 +284,8 @@ li a:hover{
     flex-direction: column;
     align-items: center;
     border: 2px solid #679436;
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     border-radius: 4px;
     overflow: hidden;
     cursor: pointer;
@@ -414,8 +433,8 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: calc(100vh + 120px);
 }
 
@@ -424,11 +443,14 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .titulo-container-servicios h2{
-    font-size: 30px;
-    padding: 10px;
+    font-size: 34px;
+    color: #05668D;
+    line-height: 28px;
+    padding: 20px;
 }
 
 .servicios-container {
@@ -439,34 +461,35 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 0px;
 }
 
 .card {
     width: calc(50% - 20px); /* Ajustar el ancho según el diseño deseado */
     margin-bottom: 20px;
-    padding: 4px;
-    background-color: #ebf2fa;
-    box-shadow: 0 0 10px #05668D;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 15px #05668D;
     border-radius: 20px;
-    
+       
 }
 
 .card p{
     padding: 10px;
     font-family: 'Raleway', sans-serif;
-    font-style: italic;
     font-size: 16px;
     line-height: 25px;
+    color: #05668D;
 }
 
 .servicios-container h3{
     font-size: 18px;
     font-weight: bolder;
+    color: #05668D;
 }
 .servicio-titulo{
     line-height: 28px;
     padding: 10px;
+    color: #05668D;
 }
 
 @media(max-width: 952px){
@@ -509,11 +532,14 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
 }
 
 .blog h2{
+    font-size: 34px;
     margin-bottom: 50px;
+    color: #05668D;
 }
 
 .blog h3{
     margin-bottom: 30px;
+    color: #05668D;
 }
 
 .btn-boletin{
@@ -521,8 +547,15 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     background-color: #679436;
     text-decoration: none;
     color: #fff;
-    padding: 16px;
+    padding: 20px;
     margin-top: 50px;
+    box-shadow:0 0 10px #679436;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.btn-boletin:hover{
+    transform: scale(1.1);
 }
 
 @media (max-width: 952px){

@@ -558,6 +558,7 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     .servicios{
         height: 100%;
         padding-top:  0px;
+        margin-top: 0px;
     
     }
     .card p{
@@ -638,8 +639,9 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     }
 
     .blog-container{
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         height: 100%;
+        margin-top: 0px;
     }
 
     .btn-boletin{

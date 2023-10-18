@@ -173,7 +173,7 @@ header li a{
 
 .nosotros h2{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     color: #05668D;
@@ -266,6 +266,7 @@ header li a{
     font-weight: bolder;
     margin-bottom: 0px;
     color: #05668D;
+    text-align: center;
     
 }
 
@@ -480,8 +481,9 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
 .titulo-servicios-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    max-width: 960px;
     padding: 20px;
     margin: 0 auto;
     color: #05668D;
@@ -531,12 +533,13 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
 .card {
     width: calc(50% - 20px); /* Ajustar el ancho según el diseño deseado */
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 15px #05668D;
     border-radius: 20px;
     overflow-wrap: break-word;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
        
 }
 
@@ -548,12 +551,14 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     color: #05668D;
     letter-spacing: 0.5px;
     word-spacing: 1px;
+    justify-content: center;
 }
 
 .servicios-container h3{
     font-size: 18px;
     font-weight: bolder;
     color: #05668D;
+    text-align: center;
 }
 .servicio-titulo{
     line-height: 28px;
@@ -616,6 +621,7 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     font-size: 34px;
     margin-bottom: 20px;
     color: #05668D;
+    text-align: center;
 }
 
 .blog h3{

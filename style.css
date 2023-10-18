@@ -613,7 +613,7 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
 .blog{
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 60%;
     padding: 10px;
 }
 

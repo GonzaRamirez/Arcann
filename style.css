@@ -577,6 +577,7 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     .servicios-container h3{
         line-height: normal;
         font-size: 16px;
+        text-align: center;
     }
     .servicios{
         height: 100%;
@@ -586,11 +587,11 @@ input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
     .card p{
         line-height: normal;
         font-size: 16px;
+        justify-content: center;
     }
 
     .servicios-container{
-        display: grid;
-        text-align: center;
+        display: grid;        
         width: 100%;
         padding: 0 20px;
         

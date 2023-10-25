@@ -766,6 +766,14 @@ input::placeholder, textarea::placeholder{
     }
 }
 
+.contactanos-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
 .contactanos-h2{
     color: #05668D;
     text-align: center;
@@ -773,6 +781,8 @@ input::placeholder, textarea::placeholder{
     padding-top: 0%;
     font-weight: bolder;
     font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.5px;
 }
 
 @media (max-width: 952px){

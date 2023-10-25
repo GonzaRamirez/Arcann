@@ -766,14 +766,14 @@ input::placeholder, textarea::placeholder{
     }
 }
 
-.contactanos-container{
+.slogan{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.contactanos-h2{
+.slogan-texto{
     color: #05668D;
     text-align: center;
     padding-bottom: 30px;

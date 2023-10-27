@@ -677,7 +677,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: calc(100vh + 10px);
     background-color: #ebf2fa;
 }
 
@@ -779,7 +779,7 @@ input::placeholder, textarea::placeholder{
     padding-bottom: 30px;
     padding-top: 0%;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 44px;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -790,11 +790,12 @@ input::placeholder, textarea::placeholder{
 }
 
 @media (max-width: 952px){
-    .contactanos-h2{
-        font-size: 28px;
+    .slogan-texto{
+        font-size: 34px;
         padding-top: 20px;
     }
 }
+
 
 footer{
     background-color: #07678E;

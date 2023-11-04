@@ -31,6 +31,10 @@ h2{
     background-color: #ebf2fa;
 }
 
+.cannabis{
+    font-style: italic;
+}
+
 nav{
     background-color: #07678E;
     position: fixed;
@@ -185,6 +189,32 @@ header li a{
     
 }
 
+.iframe-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.iframe-map{
+    text-align: center;
+    justify-content: center;
+    width: 900px;
+    box-shadow: 0 0 30px #07678E;
+}
+
+@media (max-width: 952px){
+    .iframe-map{
+        width: auto;
+    }
+}
+
+.ubicacion{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #05668D;
+}
+
 .nosotros-txt-emp{
     font-weight: bolder;  
     color: #fff; 
@@ -212,6 +242,11 @@ header li a{
     color: #07678E;
 }
 
+.vision-lista{
+    color:#05668D;
+    justify-content:center ;
+    margin-top: 10px;
+}
 .titulo{
     font-size: 34px;
     text-transform: uppercase;
